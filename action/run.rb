@@ -5,7 +5,7 @@ require "json"
 event = JSON.parse(File.read(ENV['GITHUB_EVENT_PATH']))
 comment = event["comment"]["body"]
 org = "codeNaija"
-team_id = 56725354
+team_id = 3480983
 commenter = event["comment"]["user"]["login"]
 
 puts "-------------------------------------------------"
